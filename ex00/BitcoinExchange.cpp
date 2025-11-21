@@ -6,7 +6,7 @@
 /*   By: hbousset <hbousset@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 18:39:36 by hbousset          #+#    #+#             */
-/*   Updated: 2025/11/19 14:34:15 by hbousset         ###   ########.fr       */
+/*   Updated: 2025/11/20 23:14:18 by hbousset         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -173,4 +173,3 @@ void BitcoinExchange::processFile(const std::string &filename)
 
 	file.close();
 }
-
