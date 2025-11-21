@@ -28,8 +28,10 @@ class PmergeMe
 		std::deque<int>		_deque;
 
 		void 				sortVector();
+		std::vector<int>	mergeInsertSortVector(std::vector<int>& vec);
 
 		void				sortDeque();
+		std::deque<int>		mergeInsertSortDeque(std::deque<int>& deq);
 
 
 	public:
