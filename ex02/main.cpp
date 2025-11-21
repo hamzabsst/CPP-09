@@ -19,8 +19,8 @@ int main(int ac, char** av)
 		PmergeMe sort;
 		sort.parseInput(ac, av);
 		sort.displayBefore();
-		sort.displayAfter();
 		sort.execute();
+		sort.displayAfter();
 	}
 	catch (const std::exception& e)
 	{
